@@ -13,10 +13,7 @@
 
 <p>Projeto de portifólio próprio, ao entrar poderá conhecer um pouco sobre mim e meus projetos desenvovlidos</p>
 
-🔽 Acesse aqui 🔽
-```bash
-https://portifolio-tayna.vercel.app/
-```
+Acesse aqui ➡ <a target="_blank" href="https://taynaportifolio.vercel.app/">Link do Portifólio</a>
 
 <div>
   <img src="./portifolio_capa.png" border-radius="20px">

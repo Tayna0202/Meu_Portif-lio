@@ -15,6 +15,7 @@ html {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     overflow-x: hidden;
+
     background: rgba(0, 0, 0, 0.897);
 }
 
@@ -368,7 +369,11 @@ input {
 
 /* Definições mobile */
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+
     .navItems {
         position: absolute;
         border-radius: 20px;
@@ -471,13 +476,17 @@ input {
         width: 50px;
     }
 
+    .link {
+        display: none;
+    }
+
     .container .slide img {
-        height: 40%;
-        width: 40%;
+        height: 50%;
+        width: 50%;
     }
 
     .container {
-        top: 150%;
+        top: 140%;
     }
 
     #certificados h1 {
@@ -491,3 +500,30 @@ input {
     }
 
 }
+
+@media (max-width: 400px) {
+    
+    .container .slide img {
+        height: 40%;
+        width: 40%;
+    }
+
+    .container {
+        top: 160%;
+    }
+
+}
+
+@media (max-width: 390px) {
+    
+    .container .slide img {
+        height: 40%;
+        width: 40%;
+    }
+
+    .container {
+        top: 160%;
+    }
+
+}
+
