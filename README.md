@@ -17,4 +17,5 @@ Acesse aqui ➡ <a target="_blank" href="https://taynaportifolio.vercel.app/">Li
 
 <div>
   <img src="./portifolio_capa.png" border-radius="20px">
+  <img src="./mobile.png" border-radius="20px">
 </div>

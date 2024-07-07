@@ -105,10 +105,8 @@ p {
 }
 
 .perfil {
-    width: 180px;
     margin-bottom: 20px;
-    border-radius: 50px;
-    box-shadow: rgb(255, 255, 255) 0px 0px 3px 3px;
+    width: 300px;
 }
 
 section {
@@ -128,11 +126,31 @@ section h3 {
     font-size: 50px;
 }
 
-.blocos_contato {
-    padding-top: 20px;
+.apresentacao__links,
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: 'Font1';
 }
 
-.blocos_contato,
+.apresentacao__links__link {
+    background-color: #7000ff;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 20px;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #240052;
+    transition: 0.3s ease-in-out;
+}
+
 .blocos_linguagens,
 h1 {
     display: flex;
@@ -149,6 +167,8 @@ h1 {
     width: 100px;
 }
 
+/* Certicados e diplomas */
+
 .certificados img {
     width: 400px;
     height: 400px;
@@ -156,14 +176,12 @@ h1 {
     border-radius: 20px;
 }
 
-/* Certicados e diplomas */
-
 #certificados {
     margin-bottom: 10px;
 }
 
 #certificados h1 {
-    margin-bottom: -215px;
+    margin-bottom: -350px;
 }
 
 .blocos {
@@ -238,7 +256,11 @@ h1 {
 
 section h1 {
     padding: 120px;
-    font-size: 30px;
+    font-size: 22px;
+}
+
+.habilidades h1 {
+    font-size: 22px;
 }
 
 .container {
@@ -369,7 +391,7 @@ input {
 
 /* Definições mobile */
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .navigation {
         display: none;
     }
@@ -424,7 +446,7 @@ input {
 
     p {
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .blocos_linguagens img {
@@ -432,8 +454,8 @@ input {
     }
 
     .container .slide img {
-        height: 90%;
-        width: 90%;
+        height: 80%;
+        width: 80%;
     }
 
     .container {
@@ -442,7 +464,7 @@ input {
     }
 
     .blocos {
-        margin-top: -100px;
+        margin-top: 0px;
         padding: 50px;
         display: flex;
         flex-direction: column;
@@ -450,12 +472,13 @@ input {
     }
 
     #certificados h1 {
-        margin-top: 300px;
-        margin-bottom: 0;
+        margin-top: 0px;
+        margin-bottom: -150px;
     }
+
 }
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
     .perfil {
         width: 150px;
     }
@@ -490,7 +513,7 @@ input {
     }
 
     #certificados h1 {
-        margin-top: -100px;
+        margin-top: 0px;
         margin-bottom: -100px;
     }
 
@@ -502,7 +525,7 @@ input {
 }
 
 @media (max-width: 400px) {
-    
+
     .container .slide img {
         height: 40%;
         width: 40%;
@@ -515,7 +538,7 @@ input {
 }
 
 @media (max-width: 390px) {
-    
+
     .container .slide img {
         height: 40%;
         width: 40%;
@@ -526,4 +549,3 @@ input {
     }
 
 }
-
