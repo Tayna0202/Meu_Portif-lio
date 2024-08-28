@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">Portifólio Tayna Simões 👩🏻‍💻</h1>
+<h1 align="center" style="font-weight: bold;">Portifólio Tayna Simões ANTIGO 👩🏻‍💻</h1>
 
 <div align="center">
 
@@ -8,6 +8,8 @@
   ![Visual Studio Code](https://img.shields.io/badge/VSCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
+
+🔗 ACESSE O PROJETO ATUAL: <a target="_blank" href="https://github.com/Tayna0202/Portifolio_ATUAL">Link do Portifólio</a>
 
 ## 📌 Sobre o projeto
 
